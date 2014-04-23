@@ -3,6 +3,9 @@ OwinCorsIssue
 
 Angular JS CORS Owin 
 
+SIMPLE APP TO REPRODUCE CORS OWIN ISSUE
+
+
 I was attempting to implement the build in Web API Owin external authentication with a client on a different host. This requires my Web API
 to enable CORS, which is giving me issues with the external auth redirect. The redirect request is returning a No Access-Control-Allow-Origin
 error. I think this is due to a Origin header with a null value being on the redirect. I don't know why this is there, or how to change it.
